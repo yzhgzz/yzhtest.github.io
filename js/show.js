@@ -19,7 +19,7 @@ window.onload = function()
                 { url : 'mydemo/jsdemo/团购限时抢效果/index.html', title : '团购限时抢效果' },
                 { url : 'mydemo/jsdemo/js瀑布流布局/index.html', title : 'js瀑布流布局' },
                 { url : 'mydemo/jsdemo/信息滚动效果/index.html', title : '信息滚动效果' },
-                { url : 'mydemo/jsdemo/移动端web相册/index.html', title : '移动端web相册' },
+                { url : 'mydemo/jsdemo/移动端web相册效果/index.html', title : '移动端web相册效果' },
             ],
             [
                 { title : 'jquery demo'},
