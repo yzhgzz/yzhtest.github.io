@@ -6,12 +6,20 @@
 body{
 	background-image:url(../images/grass1.jpg);
 }
+.intro{
+	margin-bottom:30px;
+	font-size:26px;
+	font-family:'KaiTi','微软雅黑',"Hiragino Sans GB","Hiragino Sans GB W3";
+	font-weight: bold;
+	text-align: center;
+	color:#3366FF;
+}
 .wrap{ 
 	background: #fff;
 	width:500px;
 	font-size:22px; 
 	margin:20px auto 0; 
-	padding:40px 20px;
+	padding:35px 20px;
 	border:2px solid #e6e6e6;
 	border-radius:10px;
 	box-shadow:12px 12px 6px 6px #ececec;

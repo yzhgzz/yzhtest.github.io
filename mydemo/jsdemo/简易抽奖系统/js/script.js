@@ -1,4 +1,4 @@
-var data=['Phone5','Ipad','三星笔记本','佳能相机','惠普打印机','谢谢参与','50元充值卡','1000元超市购物券'],
+var data=['锋利的jquery','html5和css3权威指南','JavaScript语言精粹','高性能网站建设指南','谢谢参与','500元买书卡','JavaScript权威指南'],
     timer=null,
     flag=0;
 
