@@ -1,27 +1,2 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>自动打字效果</title>
-</head>
-<body>
-<div id="wrap">
-</div>
-
-<script>
-    (function(){
-        var wrap = document.getElementById('wrap');
-        var txt = '交通大学校歌(王于之词，瞿维曲):相聚在东海之滨，汲取知识的甘泉。交大，交大，学府庄严，师生切磋共涉艰险。为飞跃而求实，为创业而攻坚。同学们，同学们!振兴中华，振兴中华。宏图在胸，重任在肩。迎向那真理之光，扬起青春的风帆。交大，交大，群英汇聚，同舟共济远航彼岸。为自强而奋发，为人类多贡献。同学们，同学们!饮水思源，饮水思源。母校的光荣，长存心田。相聚在东海之滨，汲取知识的甘泉。交大，交大，学府庄严，师生切磋共涉艰险。为飞跃而求实，为创业而攻坚。同学们，同学们!振兴中华，振兴中华。宏图在胸，重任在肩。迎向那真理之光，扬起青春的风帆。交大，交大，群英汇聚，同舟共济远航彼岸。为自强而奋发，为人类多贡献。同学们，同学们!饮水思源，饮水思源。母校的光荣，长存心田。';
-        var n = 0;
-        var timer = setInterval(function(){
-            if(n >= txt.length){
-                clearInterval(timer);
-                return;
-            }
-            wrap.innerHTML = txt.slice(0, n) + '_';
-            n++;
-        }, 150);
-    }());
-</script>
-</body>
-</html>
+<!doctype html><html><head><meta charset="UTF-8"><title>自动打字效果</title></head><body><div id="wrap"></div><script>(function(){var wrap=document.getElementById('wrap');var txt='交通大学校歌(王于之词，瞿维曲):相聚在东海之滨，汲取知识的甘泉。交大，交大，学府庄严，师生切磋共涉艰险。为飞跃而求实，为创业而攻坚。同学们，同学们!振兴中华，振兴中华。宏图在胸，重任在肩。迎向那真理之光，扬起青春的风帆。交大，交大，群英汇聚，同舟共济远航彼岸。为自强而奋发，为人类多贡献。同学们，同学们!饮水思源，饮水思源。母校的光荣，长存心田。相聚在东海之滨，汲取知识的甘泉。交大，交大，学府庄严，师生切磋共涉艰险。为飞跃而求实，为创业而攻坚。同学们，同学们!振兴中华，振兴中华。宏图在胸，重任在肩。迎向那真理之光，扬起青春的风帆。交大，交大，群英汇聚，同舟共济远航彼岸。为自强而奋发，为人类多贡献。同学们，同学们!饮水思源，饮水思源。母校的光荣，长存心田。';var n=0;var timer=setInterval(function(){if(n>=txt.length){clearInterval(timer);return;}
+wrap.innerHTML=txt.slice(0,n)+'_';n++;},150);}());</script></body></html>

@@ -7,7 +7,7 @@ var tableData = [
 ]
 
 var sortFlag = [true,true,true,true,true];
-//生成表头
+
 function buildTableHeader(tableHeaderData) {
     var tableBody = document.getElementById("myTable");
     var tableTr = document.createElement("tr");
@@ -59,9 +59,8 @@ function buildTableHeader(tableHeaderData) {
     tableBody.appendChild(tableTr);
 }
 
-//排序
+
 function sortTable(num) {
-    //console.log(sortFlag);
     function compare(a, b) {
         if (sortFlag[num] == true) {
             return a[num] - b[num];
@@ -70,12 +69,10 @@ function sortTable(num) {
         }
     }
     sortFlag[num] = !sortFlag[num];
-    //console.log(sortFlag);
     tableData.sort(compare);
     return tableData;
 }
 
-//求总分
 function getTotal(tableData) {
     for (var i = 0; i < tableData.length; i++) {
         var temp = 0;
@@ -88,7 +85,6 @@ function getTotal(tableData) {
     return tableData;
 }
 
-//生成表格主体
 function buildTable(tableData) {
     var tableBody = document.getElementById("myTable");
     var tableBodyChilds=tableBody.childNodes;

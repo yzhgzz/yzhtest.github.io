@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON实现列表框联动效果</title>
+    <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="js/script.min.js" type="text/javascript"></script>
+    <style type="text/css">
+           body{font-size:20px}
+           h3{ padding:0px; margin:8px 0px}
+           .iframe{width:430px;border:solid 1px #666;margin:0 auto;}
+           .iframe .title{padding:5px;background-color:#99CCFF}
+           .iframe .content{padding:8px;font-size:19px}
+           #Tip{color:red;}
+           select{font-size:16px}
+    </style>
+</head>
+<body>
+   <div class="iframe">
+         <div class="title">请选择省市：
+              <select id="sele1" name="sele1"></select>
+              <select id="sele2" name="sele2"></select>
+              <select id="sele3" name="sele3"></select>
+         </div>
+         <div class="content">
+              您所选择的是：<span id="Tip"></span>
+         </div>
+    </div>
+</body>
+</html>

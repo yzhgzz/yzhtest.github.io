@@ -12,7 +12,6 @@ window.onload = function()
                 { url : 'mydemo/jsdemo/图片局部放大效果/index.html', title : '图片局部放大效果' },               
                 { url : 'mydemo/jsdemo/信息滚动效果/index.html', title : '信息滚动效果' },
                 { url : 'mydemo/jsdemo/排序表格效果实现/index.html', title : '排序表格效果实现' },
-                { url : 'mydemo/jsdemo/移动端web相册效果/index.html', title : '移动端web相册效果(PC可用Opera Mobile等浏览)' },
             ],
             [
                 { title : 'jquery'},
