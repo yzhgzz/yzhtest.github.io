@@ -23,7 +23,7 @@ window.onload = function()
             ],
             [
                 { title : 'bootstrap'},
-                { url : 'mydemo/bootstrapdemo/产品介绍网页开发/index.html', title : '产品介绍网页开发' },
+                { url : 'mydemo/bootstrapdemo/前端框架介绍网页开发/index.html', title : '前端框架介绍网页开发' },
             ],
             [
                 { title : 'angularjs'},
